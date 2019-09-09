@@ -7,9 +7,7 @@ var wins = 0
   var computerGuess;
   var userchoice;
       function reset() {
-      // reset guessesSoFar
       guessesSoFar = []
-          // reset guessleft
           guessLeft = 9
 // reset computerGuess
 computerGuessIndex = (Math.floor(Math.random() * 26));
@@ -45,7 +43,7 @@ guessesSoFar.push(userchoice);
 document.getElementById("wins").innerText = "Wins: " + wins
 document.getElementById("losses").innerText = "Losses: " + losses
 document.getElementById("guessLeft").innerText = "Guesses Left: " + guessLeft
-document.getElementById("guessesMade").innerText = "Your Guesses so Far: " + guessesSoFar
+document.getElementById("guessesMade").innerText = "Your Guesses So Far: " + guessesSoFar
 }
 {/* // initialize the game */}
   reset();

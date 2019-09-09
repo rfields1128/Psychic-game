@@ -1,0 +1,30 @@
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 68px;
+    text-align: center;
+
+}
+
+p {
+    font-family: 'Abel', sans-serif;
+    background-color: white;
+    font-size: 28px;
+    text-align: center;
+    width: 370px;
+    margin: 0 auto;
+    color: orange;
+}
+
+div {
+    font-family: 'Abel', sans-serif;
+    background-color: white;
+    font-size: 28px;
+    color: orange;
+}
+
+body {
+    margin: 0 auto;
+    width: 800px;
+    background-color: orange;
+}
